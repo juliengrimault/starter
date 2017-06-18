@@ -16,11 +16,7 @@ Installation
 
 Simply clone the repository, `cd` into the local `starter` repository and then:
 
-    source installer
-
-To configure the various system and application preferences, `cd` into the local `starter` repository and then:
-
-    source starter
+    source install
 
 Tools
 =====
