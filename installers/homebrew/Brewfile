@@ -26,36 +26,22 @@ brew "curl"
 brew "autojump"
 brew "chisel"
 
-# Programming languages
-# Installing Python with Homebrew is unnecessary,
-# as they will be installed and managed via pyenv/rbenv respectively
-brew "pyenv" # Python
-
-# Install Security GUI Apps
-cask "blockblock"
-cask "knockknock"
-cask "dhs"
-cask "taskexplorer"
-cask "kextviewr"
-cask "suspicious-package"
-
 # Install GUI applications
-cask "1password"
 cask "alfred"
 cask "atom"
+cask "sublime-text"
 cask "banktivity"
-cask "daisydisk"
 cask "dropbox"
 cask "fantastical"
 cask "gifs"
 cask "goofy"
 cask "hipchat"
-cask "iterm2"
 cask "istat-menus"
 cask "kaleidoscope"
+cask "little-snitch"
 cask "monodraw"
-cask "moom"
 cask "skype"
+cask "suspicious-package"
 cask "the-unarchiver"
 cask "tower"
 cask "tunnelbear"
@@ -78,18 +64,21 @@ cask "hosts"
 
 # Fonts
 cask "font-hack"
+cask "font-fira-mono"
 
 # MAS applications
 # Get a list of installed MAS apps with:
 # `brew bundle dump --file=- | egrep ^mas`
 mas "1Blocker", id: 1107421413
-mas "Kaleidoscope", id: 587512244
 mas "xScope", id: 889428659
 mas "Deckset", id: 847496013
 mas "Pixelmator", id:407963104
 mas "CARROT Weather", id: 993487541
 mas "Tweetbot", id: 557168941
 mas "Reeder", id: 880001334
+mas "Deliveries: a package tracker", id: 924726344
+mas "DaisyDisk", id: 411643860
+mas "Moom",id: 419330170
 
 # Apple MAS applications
 mas "Keynote", id: 409183694
