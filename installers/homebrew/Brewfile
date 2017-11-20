@@ -25,6 +25,10 @@ brew "wget"
 brew "curl"
 brew "autojump"
 brew "chisel"
+brew "fzf"
+brew "fd" 
+brew "tree"
+brew "highlight"
 
 # Install GUI applications
 cask "alfred"
