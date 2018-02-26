@@ -87,6 +87,7 @@ mas "Reeder", id: 880001334
 mas "Deliveries", id: 924726344
 mas "DaisyDisk", id: 411643860
 mas "Moom",id: 419330170
+mas "Sequence Diagram", id: 1195426709
 
 # Apple MAS applications
 mas "Keynote", id: 409183694
