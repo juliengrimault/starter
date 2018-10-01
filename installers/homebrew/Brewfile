@@ -75,6 +75,7 @@ cask "hosts"
 # Fonts
 cask "font-hack"
 cask "font-fira-mono"
+cask "font-fira-code"
 
 # MAS applications
 # Get a list of installed MAS apps with:
