@@ -29,6 +29,7 @@ brew "fzf"
 brew "fd" 
 brew "tree"
 brew "highlight"
+brew "git-when-merged"
 cask "qlstephen" #quick look plugin for text files without extensions
 
 # Install GUI applications
