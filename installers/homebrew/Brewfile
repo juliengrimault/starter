@@ -21,6 +21,7 @@ brew "zsh"
 # CLI utilities
 brew "pcre"
 brew "git", args: ["with-blk-sha1", "with-gettext", "with-pcre", "with-persistent-https"]
+brew "git-lfs"
 brew "wget"
 brew "curl"
 brew "autojump"
