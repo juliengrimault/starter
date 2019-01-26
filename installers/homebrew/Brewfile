@@ -19,18 +19,18 @@ brew "bash"
 brew "zsh"
 
 # CLI utilities
-brew "pcre"
-brew "git", args: ["with-blk-sha1", "with-gettext", "with-pcre", "with-persistent-https"]
-brew "git-lfs"
-brew "wget"
-brew "curl"
 brew "autojump"
 brew "chisel"
-brew "fzf"
+brew "curl"
 brew "fd" 
-brew "tree"
-brew "highlight"
+brew "fzf"
+brew "git-lfs"
 brew "git-when-merged"
+brew "git", args: ["with-blk-sha1", "with-gettext", "with-pcre", "with-persistent-https"]
+brew "highlight"
+brew "pcre"
+brew "tree"
+brew "wget"
 cask "qlstephen" #quick look plugin for text files without extensions
 
 # Install GUI applications
@@ -46,27 +46,27 @@ cask "gpg-suite"
 cask "hipchat"
 cask "istat-menus"
 cask "kaleidoscope"
-casl "keybase"
 cask "little-snitch"
 cask "monodraw"
 cask "skype"
 cask "soulver"
-cask "suspicious-package"
 cask "sublime-text"
+cask "suspicious-package"
 cask "the-unarchiver"
 cask "tower"
-cask "tunnelbear"
 cask "transmission"
 cask "transmit"
+cask "tunnelbear"
 cask "unrarx"
-cask "vlc"
 cask "viber"
+cask "vlc"
+casl "keybase"
 
 # Browsers
-cask "google-chrome"
-cask "google-chrome-canary"
-cask "firefox"
 cask "firefox-nightly"
+cask "firefox"
+cask "google-chrome-canary"
+cask "google-chrome"
 
 # Virtulization applications
 cask "parallels-desktop"
@@ -75,25 +75,25 @@ cask "parallels-desktop"
 cask "hosts"
 
 # Fonts
-cask "font-hack"
-cask "font-fira-mono"
 cask "font-fira-code"
+cask "font-fira-mono"
+cask "font-hack"
 
 # MAS applications
 # Get a list of installed MAS apps with:
 # `brew bundle dump --file=- | egrep ^mas`
 mas "1Blocker", id: 1107421413
-mas "xScope", id: 889428659
-mas "Deckset", id: 847496013
-mas "Pixelmator", id:407963104
 mas "CARROT Weather", id: 993487541
+mas "DaisyDisk", id: 411643860
+mas "Deckset", id: 847496013
+mas "Deliveries", id: 924726344
+mas "Moom",id: 419330170
+mas "Pixelmator", id:407963104
+mas "Reeder", id: 880001334
+mas "Sequence Diagram", id: 1195426709
 mas "Tweetbot", id: 557168941
 mas "Twitterrific", id: 1289378661
-mas "Reeder", id: 880001334
-mas "Deliveries", id: 924726344
-mas "DaisyDisk", id: 411643860
-mas "Moom",id: 419330170
-mas "Sequence Diagram", id: 1195426709
+mas "xScope", id: 889428659
 
 # Apple MAS applications
 mas "Keynote", id: 409183694
