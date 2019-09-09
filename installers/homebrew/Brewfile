@@ -69,6 +69,7 @@ cask "viber"
 cask "Visual-Studio-Code"
 cask "vlc"
 cask "WhatsYourSign"
+cask "xScope"
 
 # Browsers
 cask "firefox-nightly"
