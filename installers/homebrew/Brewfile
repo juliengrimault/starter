@@ -7,6 +7,7 @@ tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "homebrew/bundle"
 tap "homebrew/core"
+tap "beeftornado/rmtree"
 
 # Cask dependencies
 brew "mas"
