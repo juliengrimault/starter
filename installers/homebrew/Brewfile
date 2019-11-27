@@ -2,12 +2,14 @@
 cask_args appdir: "~/Applications"
 
 # Taps
+tap "beeftornado/rmtree"
 tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
-tap "beeftornado/rmtree"
+tap "sambadevi/powerlevel9k"
 
 # Cask dependencies
 brew "mas"
@@ -18,8 +20,10 @@ cask "xquartz"
 # Note: Don't forget to add shells to `/etc/shells` before running `chsh`.
 brew "bash"
 brew "zsh"
+brew "zsh-completions"
 
 # CLI utilities
+brew "antibody" #plugin management for zsh
 brew "autojump"
 brew "chisel"
 brew "curl"
@@ -30,6 +34,7 @@ brew "git-when-merged"
 brew "git", args: ["with-blk-sha1", "with-gettext", "with-pcre", "with-persistent-https"]
 brew "highlight"
 brew "pcre"
+brew "powerlevel9k" #zsh theme
 brew "tree"
 brew "wget"
 cask "qlstephen" #quick look plugin for text files without extensions
@@ -85,6 +90,7 @@ cask "hosts"
 
 # Fonts
 cask "font-fira-code"
+cask "font-firecode-nerd-font"
 cask "font-fira-mono"
 cask "font-hack"
 
