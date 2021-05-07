@@ -3,9 +3,9 @@ cask_args appdir: "~/Applications"
 
 # Taps
 tap "beeftornado/rmtree"
-tap "caskroom/cask"
-tap "caskroom/fonts"
-tap "caskroom/versions"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "github/gh"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
@@ -13,8 +13,6 @@ tap "homebrew/core"
 tap "sambadevi/powerlevel9k"
 
 # Cask dependencies
-brew "mas"
-cask "java"
 cask "xquartz"
 
 # Shells
@@ -46,11 +44,9 @@ cask "alfred"
 cask "atom"
 cask "banktivity"
 cask "carbon-copy-cloner"
-cask "dropbox"
 cask "fantastical"
 cask "gifs"
 cask "gpg-suite"
-cask "hipchat"
 cask "ImageOptim"
 cask "istat-menus"
 cask "kaleidoscope"
@@ -62,7 +58,6 @@ cask "monodraw"
 cask "Sketch"
 cask "skype"
 cask "Slack"
-cask "soulver"
 cask "sublime-text"
 cask "suspicious-package"
 cask "TaskExplorer"
@@ -70,9 +65,6 @@ cask "the-unarchiver"
 cask "tower"
 cask "Transmission"
 cask "transmit"
-cask "tunnelbear"
-cask "unrarx"
-cask "viber"
 cask "Visual-Studio-Code"
 cask "vlc"
 cask "WhatsYourSign"
@@ -87,32 +79,8 @@ cask "google-chrome"
 # Virtulization applications
 cask "parallels-desktop"
 
-# Preference Panes
-cask "hosts"
-
 # Fonts
 cask "font-fira-code"
-cask "font-firecode-nerd-font"
+cask "font-fira-code-nerd-font"
 cask "font-fira-mono"
 cask "font-hack"
-
-# MAS applications
-# Get a list of installed MAS apps with:
-# `brew bundle dump --file=- | egrep ^mas`
-mas "1Blocker", id: 1107421413
-mas "CARROT Weather", id: 993487541
-mas "DaisyDisk", id: 411643860
-mas "Deckset", id: 847496013
-mas "Deliveries", id: 924726344
-mas "Moom",id: 419330170
-mas "Pixelmator", id:407963104
-mas "Reeder", id: 880001334
-mas "Sequence Diagram", id: 1195426709
-mas "Tweetbot", id: 557168941
-mas "Twitterrific", id: 1289378661
-mas "xScope", id: 889428659
-
-# Apple MAS applications
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541

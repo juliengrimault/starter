@@ -7,21 +7,16 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install all available updates
-sudo softwareupdate -ia --verbose
+#sudo softwareupdate -ia --verbose
 
-INSTALLERS=(
+declare -a INSTALLERS=(
   xcode # XCode __must__ be installed before Homebrew
   homebrew # Homebrew __must__ be installed before other tools
   shells
 )
 
 # Sources all the preference files
-function source_installers {
-  declare -a files=("${!1}")
-  for file in "${files[@]}"; do
-    file="${2}${file}.sh"
-    [ -r "$file" ] && [ -f "$file" ] && source "$file"
-  done;
-}
-
-source_installers INSTALLERS[@] "installers/"
+for file in "${INSTALLERS[@]}"; do
+  file="installers/${file}.sh"
+  [ -r "$file" ] && [ -f "$file" ] && source "$file"
+done;
