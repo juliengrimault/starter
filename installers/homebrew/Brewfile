@@ -25,13 +25,12 @@ brew "zsh-completions"
 brew "antibody" #plugin management for zsh
 brew "autojump"
 brew "chisel"
-brew "curl"
 brew "fd" 
 brew "fzf"
 brew "gh" #github cli tool
 brew "git-lfs"
 brew "git-when-merged"
-brew "git", args: ["with-blk-sha1", "with-gettext", "with-pcre", "with-persistent-https"]
+brew "git"
 brew "highlight"
 brew "pcre"
 brew "powerlevel9k" #zsh theme
@@ -45,7 +44,6 @@ cask "atom"
 cask "banktivity"
 cask "carbon-copy-cloner"
 cask "fantastical"
-cask "gifs"
 cask "gpg-suite"
 cask "ImageOptim"
 cask "istat-menus"
